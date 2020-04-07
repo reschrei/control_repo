@@ -9,8 +9,8 @@ node 'master.puppet.vm' {
   include role::master_server
 }
 node /^web/ {
-  include roll::app_server
+  include role::app_server
 }
 node /^db/ {
-  include roll::db_server
+  include role::db_server
 }
